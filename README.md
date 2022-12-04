@@ -4,7 +4,7 @@ This repository holds the files for the serial implementation of the Coloring Al
 ## Compiling
 Run this command for compiling and creating the executable:
 
-    gcc main.c -O3 -o main   
+    gcc main.c -O3 -o "executable_name"  
 
 ## File Loading 
 
