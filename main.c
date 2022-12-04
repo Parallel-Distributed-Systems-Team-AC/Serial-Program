@@ -506,7 +506,7 @@ int main() {
 
     while (has_changed_colors_backward) {
       has_changed_colors_backward = false;
-      for (uint k = 0; k < E; k++) {
+      for (int k = E-1; k >=0; k--) {
         if (is_in_SCC[I[k]] || is_in_SCC[J[k]]) {
           continue;
         }
